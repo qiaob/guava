@@ -17,7 +17,7 @@ public class biDemo {
 //        biMap.put("小李","xiaowang@q.com");
         biMap.put("小明","xiaoming@q.com");
         biMap.put("小狗","xiaogou@q.com");
-
+        System.out.println(listStr);
        BiMap<String, String> inverse = biMap.inverse();
 
         for (Map.Entry<String,String> entry:inverse.entrySet()) {

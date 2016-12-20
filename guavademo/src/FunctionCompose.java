@@ -30,7 +30,7 @@ public class FunctionCompose {
             @Override
             public String apply(String input) {
 
-
+                System.out.println(listStr);
                 return input.toUpperCase();
             }
         };
