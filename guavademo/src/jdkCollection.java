@@ -10,5 +10,6 @@ public class jdkCollection {
                 Collections.emptyList();
         objects.add("aassa");
         System.out.println(objects);
+        sss
     }
 }
