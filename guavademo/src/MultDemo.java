@@ -26,7 +26,7 @@ public class MultDemo {
         set.add("234");
         set.addAll(hashSet);
 
-
+        System.out.println(listStr);
         System.out.println(set.size());
         System.out.println(set.count("123"));
 
@@ -39,7 +39,7 @@ public class MultDemo {
         map.put("李四","老师");
         map.put("王五","老师");
 
-
+        System.out.println(listStr);
         System.out.println(map.get("李四"));
         //[老师, 学生]
 

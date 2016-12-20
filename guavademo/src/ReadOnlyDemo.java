@@ -11,7 +11,8 @@ public class ReadOnlyDemo {
     public static void main(String[] args) {
 
         guavaImpl();
-
+        System.out.println(listStr);
+        System.out.println(listStr);
 
     }
 

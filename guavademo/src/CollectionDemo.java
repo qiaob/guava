@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class CollectionDemo {
     public static void main(String[] args) {
-
+        System.out.println(listStr);
         ArrayList<Integer> list1 = Lists.newArrayList(1, 2, 3, 4, 5, 6);
         list1.add(5);
 
@@ -35,6 +35,7 @@ public class CollectionDemo {
                 return String.valueOf(input);
             }
         });
+        System.out.println(listStr);
         System.out.println(listStr);
 
     }
